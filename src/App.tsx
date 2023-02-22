@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
-import React, { useState } from "react";
 
 const App = () => {
   return (

@@ -17,10 +17,18 @@ const Intro: React.FC = (): JSX.Element => {
         I'm a full stack developer, avid bookworm, and an MMA practitioner.
       </p>
       <div className="cont-social-icons">
-        <a href="https://github.com/psyofrelief" target="_blank">
+        <a
+          href="https://github.com/psyofrelief"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} className="social-icon" />
         </a>{" "}
-        <a href="https://www.linkedin.com/in/faried-idris" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/faried-idris"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
         </a>
       </div>{" "}

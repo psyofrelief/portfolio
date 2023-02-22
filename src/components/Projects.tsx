@@ -68,6 +68,7 @@ const Projects = (props: MenuProps) => {
               href="https://psyofrelief.github.io/clickey"
               className="btn-preview"
               target="_blank"
+              rel="noreferrer"
             >
               Live Preview{" "}
               <span>
@@ -78,6 +79,7 @@ const Projects = (props: MenuProps) => {
               href="https://github.com/psyofrelief/clickey"
               target="_blank"
               className="btn-code"
+              rel="noreferrer"
             >
               Code{" "}
               <span>
@@ -114,6 +116,7 @@ const Projects = (props: MenuProps) => {
               href="https://psyofrelief.github.io/MoneyMetrics"
               target="_blank"
               className="btn-preview"
+              rel="noreferrer"
             >
               Live Preview{" "}
               <span>
@@ -124,6 +127,7 @@ const Projects = (props: MenuProps) => {
               href="https://github.com/psyofrelief/MoneyMetrics"
               target="_blank
 "
+              rel="noreferrer"
               className="btn-code"
             >
               Code{" "}

@@ -68,10 +68,18 @@ const Contact = (props: MenuProps) => {
       </div>{" "}
       <p className="comment">{"// Some socials"}</p>
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/faried-idris" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/faried-idris"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://github.com/psyofrelief" target="_blank">
+        <a
+          href="https://github.com/psyofrelief"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
