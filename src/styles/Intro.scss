@@ -1,0 +1,89 @@
+.intro {
+  min-height: calc(100vh - 71.5px);
+  margin-top: 55.5px;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  font-weight: 600;
+  padding: 1em;
+  position: relative;
+}
+.label {
+  color: var(--clr-text-300);
+}
+
+.who-i-am {
+  margin-top: auto;
+  color: var(--clr-text-100);
+  font-size: 2.2rem;
+}
+
+.what-i-do {
+  color: var(--clr-text-100);
+  margin-top: 2em;
+  margin-bottom: auto;
+  font-size: 2rem;
+}
+
+.name-highlight {
+  color: #a6e3a1;
+  font-weight: 900;
+}
+
+.cont-social-icons {
+  margin-bottom: auto;
+  max-width: fit-content;
+  display: flex;
+  gap: 1.5em;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 1em;
+  right: 0px;
+  left: 0px;
+}
+
+.social-icon {
+  color: var(--clr-text-300);
+  font-size: 3rem;
+  cursor: pointer;
+  &:hover {
+    color: var(--clr-text-100);
+  }
+}
+
+.arrow-down {
+  color: var(--clr-text-100);
+  position: absolute;
+  bottom: 20%;
+  right: 1em;
+  font-size: 2rem;
+  animation: arrowBounce 4s infinite ease-in-out;
+}
+
+@keyframes arrowBounce {
+  0% {
+    opacity: 0.7;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(150%);
+  }
+  100% {
+    opacity: 0.7;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .who-i-am {
+    font-size: 1.7rem;
+  }
+
+  .what-i-do {
+    font-size: 1.5rem;
+  }
+  .social-icon {
+    font-size: 2.3rem;
+  }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+/* Colors */
+
+:root {
+  --clr-dark-900: #1e1e2e;
+  --clr-dark-800: #313244;
+  --clr-text-900: #313244;
+  --clr-text-300: #9399b2;
+  --clr-text-200: #cdd6f4;
+  --clr-text-100: #f3f6fc;
+}
+/*  */
+
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--clr-dark-800);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--clr-text-300);
+    border-radius: 8px;
+}
+
+body {
+  margin: 0;
+  background-color: #11111b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Fira Code", monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Global */
+
+.hide {
+  display: none;
+}
+
+:focus {
+    outline: 5px solid palevioletred;
+}
