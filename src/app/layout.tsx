@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { FadeUp } from "@/components/animation/fade-up";
 import CallToAction from "@/components/call-to-action";
 import Footer from "@/components/footer";
 import Menu from "@/components/menu/menu-overlay";
 import Navbar from "@/components/navbar";
 import { AppProvider } from "@/context/app-context";
-import { FadeUp } from "@/components/animation/fade-up";
+
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -36,6 +39,8 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.className} relative uppercase  antialiased min-h-screen flex flex-col px-sm sm:px-xl w-full max-w-[1440px] mx-auto`}
       >
+        <SpeedInsights />
+        <Analytics />
         <AppProvider>
           <Navbar />
           <Menu />
