@@ -117,7 +117,7 @@ export default function WorkClient() {
           ))}
         </div>
       </FadeUp>
-      <div className="size-full pt-[70px] rounded-md bg-transparent flex items-center justify-center bg-cover bg-center relative">
+      <div className="size-full pt-[4%] rounded-md bg-transparent flex items-center justify-center bg-cover bg-center relative">
         <FadeUp>
           <Image
             height={1920}
